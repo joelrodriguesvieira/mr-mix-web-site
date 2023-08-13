@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Mr. Mix - Site Oficial</title>
+</head>
+<body>
+    <section>
+        <header>
+            <nav>
+                <a href="#" class="logo"><img src="imgs/logo-1.png" alt="Logo Oficial do Mr. Mix. A logo possui o nome pintado de amarelo, com bordas rosas. Há um pequeno texto escrito milk shakes na cor branca. O fundo da logo parece uma bolha de água, na cor azul."></a>
+
+                <ul class="nav-list">
+                    <li><a class="check" href="#home">Início</a></li>
+                    <li><a href="#shop">Melhores Ofertas</a></li>
+                    <li><a href="#depositions">Depoimentos</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                </ul>
+            </nav>
+        </header>
+    </section>
+
+    <section>
+        <div class="home" id="inicio">
+            <div class="circle"></div>
+            <div class="home-text">
+                <span>Bem-vindo à</span>
+                <h1 class="title1">Mr. Mix Garanhuns</h1>
+                <h1>Milk Shakes</h1>
+                <p>A Mr. Mix é a melhor Rede de Franquia de Milk Shakes e Sorvetes do Brasil,<br> com sabores exclusivos de Milk Shake e Sorvetes.</p>
+                <a href="#" class="button">Contato</a>
+                <h6>Escolha seu sabor favorito:</h6>
+                <div class="content">
+                    <span id="pink" onclick="imgSlider('imgs/pink.png'); circleChangue('#ffc0cb')"></span>
+                    <span id="white" onclick="imgSlider('imgs/white.png'); circleChangue('#f0e8e8')"></span>
+                    <span id="brown" onclick="imgSlider('imgs/brown.png'); circleChangue('#8b4414')"></span>
+                    <span id="yellow" onclick="imgSlider('imgs/yellow.png'); circleChangue('#d6b41b')"></span>
+                </div>
+            </div>
+            <div class="home-img">
+                <img src="imgs/pink.png" alt="Milk shake da Mr. Mix Sabor morango" id="milkshake">
+            </div>
+        </div>
+        <div class="shop" id="shop">
+            <div class="heading">
+                <h1>Nosso Cardápio</h1>
+                <span>As Melhores ofertas</span>
+            </div>
+            <div class="shop-cards">
+                <br>
+                <span class="card-title">Milk Shakes</span>
+                <div class="cards">
+                    <div class="card-box">
+                        <img src="imgs/pink.png" alt="">
+                        <div class="card-description">
+                            <h1>Morango</h1>
+                            <span>R$ 14,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <img src="imgs/brown.png" alt="">
+                        <div class="card-description">
+                            <h1>Chocolate</h1>
+                            <span>R$ 14,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <img src="imgs/white.png" alt="">
+                        <div class="card-description">
+                            <h1>Flocos</h1>
+                            <span>R$ 14,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <img src="imgs/yellow.png" alt="">
+                        <div class="card-description">
+                            <h1>Paçoca</h1>
+                            <span>R$ 14,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <span class="card-title">Sorvetes</span>
+                <div class="cards">
+                    <div class="card-box">
+                        <img src="imgs/sorvete-white.png" alt="">
+                        <div class="card-description">
+                            <h1>Flocos</h1>
+                            <span>R$ 9,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <img src="imgs/sorvete-brown.png" alt="">
+                        <div class="card-description">
+                            <h1>Chocolate</h1>
+                            <span>R$ 9,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                    <div class="card-box">
+                        <img src="imgs/sorvete-chiclete.png" alt="">
+                        <div class="card-description">
+                            <h1>Chiclete</h1>
+                            <span>R$ 9,99</span>
+                            <button><a href="#">Compre Agora</a></button>
+
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+        </div>
+            <div class="depositions" id="depositions">
+                <h2>Feedbacks</h2>
+                <span>É disso que o povo gosta</span>
+                <div class="cards-ask">
+                    <div class="card-ask-box">
+                        <img src="https://www.promoview.com.br/uploads/2017/04/b72a1cfe.png" alt="">
+                        <div class="cards-aks-description">
+                            <h3>Jonathan</h3>
+                            <h4>Nota: 5,0</h4>
+                            <ul>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                            </ul>
+                            <p>Melhor açaí que já tomei !!! Sem falar no creme de leite ninho 😋</p>
+                        </div>
+                    </div>
+                    <div class="card-ask-box">
+                        <img src="https://www.promoview.com.br/uploads/2017/04/b72a1cfe.png" alt="">
+                        <div class="cards-aks-description">
+                            <h3>Elissandra</h3>
+                            <h4>Nota: 4,0</h4>
+                            <ul>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                                <li><i class="fa fa-star checked"></i></li>
+                            </ul>
+                            <p>Caro, porém muito bom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section>
+        <footer id="about">
+            <h3>Sobre Nós</h3>
+            <div class="about-us">
+                <div class="products">
+                    <h4>Modelo de negócio:</h4>
+                    <p>Um de sorvete expresso/Soft (aquele tirado na máquina) <br> e outro para sorvete de massa e picolé. Qual deseja visitar primeiro?</p>
+                </div>
+                <div class="where-are">
+                    <h4>Localização:</h4>
+                    <p>Avenida Santo Antônio, 339 B, Santo Antônio - Garanhuns/PE.<br>Segunda a Sábado das 10h às 18h30;
+                        Domingos das 13h às 18h</p>
+                        
+                </div>
+                <div class="social-medias">
+                    <h4>Redes Sociais</h4>
+                    <a href="#"><i class='bx bxl-instagram' ></i></a>
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+                </div>
+        </footer>
+    </section>
+    
+    
+    <script type="text/javascript">
+        /*Função mudar milkshake*/
+        function imgSlider(e) {
+            document.querySelector('#milkshake').src = e;
+        }
+        /*Função mudar a cor do circulo */
+        function circleChangue(color) {
+            const circle = document.querySelector('.circle');
+            circle.style.background = color;
+        }
+        </script>
+</body>
+</html>
