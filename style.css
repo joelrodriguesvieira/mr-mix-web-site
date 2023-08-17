@@ -13,7 +13,8 @@
 :root {
     --pink: #d92e5f;
     --yellow: #fde823;
-    --blue: #63b1e2;
+    --blue: #51BECD;
+    --gray: #595959;
     --background-color: #338691;
 }
 
@@ -47,9 +48,8 @@ nav {
 }
 
 .nav-list li a:hover {
-    color:white;
-    border-bottom: 1px solid white;
-    transition: all 0.2s ease;
+    color:var(--blue);
+    transition: all ease-in-out;
 }
 
 
@@ -92,12 +92,12 @@ nav {
     background-color: var(--pink);
     color: white;
     padding: 10px 25px;
-    border-radius: 50px;
-    transition: all 0.5s;
+    border-radius: 10px;
+    transition: all 0.2s;
 }
 
 .home-text .button:hover {
-    opacity: .75;
+    color: var(--yellow);
 }
 
 .home-text h6{
@@ -202,6 +202,7 @@ nav {
 .card-box {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
     background-color: #fff;
     margin-top: 10px;
     width: 200px;
@@ -325,4 +326,142 @@ footer > h3 {
     transition: 0.5s;
     scale: 1.05;
     color: var(--yellow);
+}
+
+.formulario {
+    height: 100vh;
+    background: var(--blue);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+fieldset {
+    border: none;
+    width: 85vw;
+    height: 80vh;
+    background-color: var(--pink);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-form {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title-cad {
+    font-size: 28px;
+    color: var(--yellow);
+}
+
+.informations-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.information_user,
+.adress_user,
+.preferences_user {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.informations-form div > h3, .informations-form div > h3 {
+    padding: 10px 0;
+    font-size: 23px;
+    color: var(--yellow);
+}
+
+
+div > label, .information_user div > p, .preferences_user p {
+    font-size: 24px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    font-size: 19px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+    width: 250px;
+    height: 25px;
+}
+
+input[type="date"] {
+    width: 150px;
+}
+
+.input-parents input[type="text"]{
+    width: 290px;
+    height: 25px;
+}
+
+input[type="email"] {
+    width: 300px;
+}
+
+input[type="number"] {
+    font-size: 19px;
+    width: 85px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+input[type="radio"] {
+    margin-left: 5px;
+    margin: 0 5px;
+}
+
+#street {
+    width: 380px;
+}
+
+textarea {
+    margin: 8px 0;
+    font-size: 19px;
+}
+
+.button-cad {
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 23px;
+    padding: 10px;
+    color: var(--pink);
+    border: none;
+    border-radius: 10px;
+    width: 320px;
+    height: 48px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button-cad:hover {
+    background-color: var(--yellow);
+}
+
+.preferences-imgs {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0;
+}
+
+.preferences-imgs article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.preferences-imgs article > label > img {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
