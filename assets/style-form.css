@@ -1,0 +1,124 @@
+.welcome-form {
+    padding: 30px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--pink);
+    height: 10vh;
+}
+
+.left-form > h4 {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: whitesmoke;
+}
+
+.ticket {
+    background-color: whitesmoke;
+    width: 280px;
+    height: 58px;
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.esquerdo-ticket > img {
+    margin: 12px;
+    transform: rotate(-12deg);
+}
+
+.direito-ticket > p{
+    color: var(--gray);
+    font-size: 0.8rem;
+}
+
+.formulario {
+    padding: 0 150px;
+    background-color: var(--background-color);
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informations-form {
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+    align-items: center;
+    height: 750px;
+    width: 80vw;
+    background-color: whitesmoke;
+}
+
+.informations-form div > h3 {
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+.information_user, .adress_user, .create-login {
+    width: 800px;
+}
+
+.information_user > div, .adress_user > div, .create-login > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.information_user > div > input, .adress_user > div > input, .create-login > div > input {
+    width: 250px;
+    height: 30px;
+    border: 1px solid var(--gray);
+    border-radius: 5px;
+    margin: 0 7px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.informations-form label {
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.input-gender > input[type="radio"] {
+    width: 14px;
+}
+
+.complement {
+    display: flex;
+    flex-direction: column;
+    margin-right: 7px;
+}
+
+.button-cad {
+    margin-top: 25px;
+    font-size: 1.2em;
+    padding: 10px;
+    background-color: var(--pink);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 48px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button-cad:hover {
+    background-color: #ff1054;
+}
+
+.button-back {
+    margin-top: 15px;
+    width: 100px;
+    height: 48px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 10px;
+}
+
+.button-back a {
+    color: white;
+    font-size: 1.2em;
+}

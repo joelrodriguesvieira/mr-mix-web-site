@@ -1,0 +1,98 @@
+.menu-mr-mix {
+    width: 100%;
+    padding: 30px 150px;
+}
+
+.head-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head-menu h4{
+    font-size: 2.1rem;
+    color: var(--blue);
+}
+
+.head-menu > span {
+    font-size: 1.5rem;
+    color: var(--gray);
+}
+
+.head-menu-right {
+    background-color: var(--blue);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.head-menu-right:hover {
+    background-color: var(--background-color);
+}
+
+.head-menu-right span {
+    padding: 0 10px;
+    color: white;
+}
+
+.head-menu-right i{
+    margin-right: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.container-menu {
+    margin: 35px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card-menu {
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header-card i{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+}
+
+.container-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-card img {
+    width: 200px;
+    height: 280px;
+}
+
+.container-card > h6 {
+    font-size: 1rem;
+    padding: 5px 0;
+}
+
+.container-card > button {
+    font-weight: lighter;
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px 0;
+    font-size: 1rem;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container-card > button:hover {
+    background-color: var(--background-color);
+}

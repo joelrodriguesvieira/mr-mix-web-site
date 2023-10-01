@@ -1,0 +1,311 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 120px;
+    width: 100%;
+    min-height: 86vh;
+    background: whitesmoke;
+    font-size: 20px;
+}
+
+.home-text span{
+    font-weight: bolder;
+    font-size: 1.3em;
+    color:var(--gray);
+}
+
+.home-text h1 {
+    font-size: 2.6em;
+    color: var(--pink);
+    font-weight: bolder;
+}
+
+.home-text h2 {
+    color: var(--pink);
+    margin: 5px 0;
+    font-size: 1.3em;
+}
+
+.home-text p {
+    color: var(--gray);
+    font-size: 0.85em;
+    width: 710px;
+    margin-bottom: 1.3rem;
+    font-weight: lighter;
+}
+
+.home-text .button {
+    font-size: 1.2rem;
+    background-color: var(--blue);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    transition: all 0.2s;
+}
+
+.home-text .button:hover {
+    background-color: var(--background-color);
+}
+
+.home-text h6{
+    margin: 20px 0 15px 0;
+    font-size: 0.85em;
+    color: var(--gray);
+}
+
+.home-text .content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-text .content span {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    transform: all 0.5s;
+}
+
+.home-text .content span:hover {
+    opacity: .80;
+}
+
+#pink {
+    background-color: #ffc0cb;
+}
+#white {
+    background-color: #d3d3d3;
+}
+
+#brown{
+    background-color: #8b4414;
+}
+
+#yellow{
+    background-color: #d6b41b;
+}
+
+.home-img {
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.home-img img {
+    width: 370px;
+    transform: rotate(-7deg);
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    clip-path: circle(700px at right 900px);
+}
+
+.shop {
+    background-color: whitesmoke;
+    height: 76vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-box {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #fff;
+    width: 16vw;
+    height: 34vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-position: center;
+    background-size: cover;
+}
+
+#card-box-1 {
+    background-image: url(../imgs/shake_capa.jpg);
+}
+
+#card-box-2 {
+    background-image: url(../imgs/sorvete-capa.jpg);
+}
+
+#card-box-3 {
+    background-image: url(../imgs/milk-shake-rei-capa.jpg);
+}
+
+#card-box-4 {
+    background-image: url(../imgs/milk-shake-capa.jpg);
+}
+
+.card-box:hover {
+    transition: 0.5s;
+    scale: 1.05;
+}
+
+.shop > button {
+    margin: 15px 0;
+    padding: 15px;
+    width: 280px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.shop > button:hover {
+    background-color: var(--background-color);
+    transition: 0.5s;
+}
+
+.shop > button > a {
+    color: white;
+    font-size: 17px;
+}
+
+.depositions{
+    background: var(--blue);
+    height: 75vh;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.depositions > h4 {
+    font-size: 2.5rem;
+    color: var(--yellow);
+    margin: 20px 0 40px 0;
+}
+
+.cards-ask {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.card-ask-box {
+    border-radius: 65px 25px 65px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    height: 45vh;
+    background-color: rgb(255, 255, 255);
+    padding: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.person-box {
+    margin-top: 10px;
+    border: 0.5px solid var(--gray);
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    background-position: top;
+    background-size: cover;
+}
+
+#person-box-2{
+    background-image: url(https://img.freepik.com/fotos-gratis/mulher-de-negocios-elegante-e-confiante-sorrindo_176420-19466.jpg);
+}
+
+#person-box-1{
+    background-image: url(https://img.freepik.com/fotos-premium/retrato-de-empresario-maduro-em-trajes-formais-sucesso-nos-negocios-homem-de-sucesso-em-um-terno-empresarial-moda-formal-masculina-ceo-profissional-com-barba-por-fazer-chefe-com-cabelo-grisalho-empresario-confiante_545934-1523.jpg);
+}
+
+.cards-ask-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.card-ask-head ul {
+    padding: 17px 0;
+    display: flex;
+    font-size: 13px;
+}
+
+.cards-ask-description > h6 {
+    margin-top: 10px;
+    font-size: 0.7em;
+}
+
+.checked {
+    color: #ff9f43;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: var(--pink);
+}
+
+.title-about-us > h3 {
+    font-size: 35px;
+    font-weight: lighter;
+    border-bottom: 1px solid var(--pink);
+    display: inline-block;
+    width: 300px;
+}
+
+.about-us-image > img {
+    width: 50vw;
+    height: 100vh;
+}
+
+.about-us {
+    margin: 50px 0;
+    width: 50vw;
+    text-align: center;
+}
+
+.about-us h4 {
+    font-size: 24px;
+    font-weight: lighter;
+    color: var(--pink);
+}
+
+.about-us p {
+    font-size: 17px;
+    color: var(--gray);
+    display: inline-block;
+    width: 450px;
+    margin-bottom: 15px;
+}
+
+.social-medias {
+    width: 100%;
+    height: 65px;
+}
+
+.social-medias a > i {
+    font-size: 30px;
+    color: var(--pink);
+    margin: 18px 5px;
+}
+
+.social-medias a > i:hover {
+    transition: 0.5s;
+    scale: 1.05;
+    border-bottom: 1px solid var(--pink);
+}
