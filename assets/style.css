@@ -83,25 +83,3 @@ nav > div > button > a {
 .buttons i:hover{
     color: rgb(253, 0, 42);
 }
-
-.botao-promocoes {
-    color: var(--yellow);
-    background-color: var(--pink);
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90px;
-    width: 160px;
-    border-radius: 25px;
-    text-align: center;
-    text-decoration: none;
-    border: 1px solid white;
-}
-
-.botao-promocoes > img {
-    width: 40px;
-}
-
