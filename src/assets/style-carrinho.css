@@ -1,0 +1,120 @@
+main {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 150px;
+    gap: 25px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head i{
+    font-size: 20px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.head h1 {
+    font-size: 1.7rem;
+    color: var(--blue);
+}
+
+.head-shopping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    background-color: var(--blue);
+    height: 35px;
+}
+
+.head-shopping span{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 240px;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    height: 100%;
+}
+
+#description-head {
+    width: 350px;
+    border: none;
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 120px;
+    width: 100%;
+}
+
+.title-purchase {
+    font-weight: 500;
+    color: var(--pink);
+}
+
+.purchase-description {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.purchase-description img {
+    width: 80px;
+    height: 110px;
+}
+
+.purchase-attributes {
+    display: flex;
+}
+
+.box-purchase {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 10px;
+    width: 20.7%;
+    height: 100%;
+}
+
+.purchase-value button{
+    font-size: 1.2rem;
+    height: 30px;
+    width: 30px;
+}
+
+.purchase-value input {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
+
+.purchase-remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.9%;
+    height: 100%;
+}
+
+.purchase-remove button {
+    padding: 10px;
+    background-color: var(--pink);
+    border: none;
+    border-radius: 25%;
+    color: #ffffff;
+    cursor: pointer;
+}
+

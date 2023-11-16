@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/style-cardapio.css">
+    <link rel="stylesheet" href="src/assets/style.css">
+    <link rel="stylesheet" href="src/assets/style-cardapio.css">
     <title>Confira nossos produtos</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
         <header>
             <nav>
                 <a href="index.html" class="logo">
-                    <img src="imgs/logo-1.png" alt="Logo Oficial do Mr. Mix. A logo possui o nome pintado de amarelo, com bordas rosas. Há um pequeno texto escrito milk shakes na cor branca. O fundo da logo parece uma bolha de água, na cor azul.">
+                    <img src="src/imgs/logo-1.png" alt="Logo Oficial do Mr. Mix. A logo possui o nome pintado de amarelo, com bordas rosas. Há um pequeno texto escrito milk shakes na cor branca. O fundo da logo parece uma bolha de água, na cor azul.">
                 </a>
 
                 <ul class="nav-list">
@@ -32,11 +32,9 @@
                         <a href="#">Entrar</a>
                     </button>
                     <div class="buy-cart">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <a href="carrinho.html"><i class="fa-solid fa-cart-shopping"></i></a>
                     </div>
                 </div>
-                
-
             </nav>
         </header>
     </section>
@@ -47,107 +45,9 @@
                 <span>Linhas populares</span>
             </div>
         </div>
-        <div class="container-menu">
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/milk-shakes.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Milk Shake</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/club-mix.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Club Mix</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/acai.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Açai</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/kids.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Linha Kids</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/mini.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Mini Sorvete</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/picole.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Picolé</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu">
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/sobremesas.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Sobremesas</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu"> 
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/sundae.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Sundae</h6>
-                    <p>R$11,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-            <article class="card-menu"> 
-                <div class="header-card">
-                    <i class="fa-regular fa-heart"></i>
-                </div>
-                <div class="container-card">
-                    <img src="imgs/maxxi-gelato.png" alt="copo de milk-shake da Mister Mix. Nesse exemplo, um milk-shake sabor cookies ou óreo">
-                    <h6>Maxxi Gelato</h6>
-                    <p>R$19,99</p>
-                    <button>Adicionar ao carrinho</button>
-                </div>
-            </article>
-        </div>
+        <div class="container-menu"></div>
     </section>
+    <script type="module" src="src/scripts/cardapio.js"></script>  
+    <script type="module" src="src/scripts/products.js"></script>
 </body>
 </html>
