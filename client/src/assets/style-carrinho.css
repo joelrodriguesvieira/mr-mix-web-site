@@ -1,0 +1,168 @@
+main {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 150px;
+    gap: 25px;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.head i{
+    font-size: 20px;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.head h1 {
+    font-size: 1.7rem;
+    color: var(--blue);
+}
+
+.head-shopping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+    background-color: var(--blue);
+    height: 35px;
+}
+
+.head-shopping span{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    width: 240px;
+    color: #ffffff;
+    border-left: 1px solid #ffffff;
+    height: 100%;
+}
+
+.message-null {
+    margin: 1.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+#description-head {
+    width: 350px;
+    border: none;
+}
+
+.purchase {
+    padding: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 150px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 1.2rem 0;
+}
+
+.title-purchase {
+    font-weight: 500;
+    color: var(--pink);
+}
+
+.purchase-description {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.purchase-description img {
+    width: 80px;
+    height: 110px;
+}
+
+.purchase-attributes {
+    display: flex;
+}
+
+.box-purchase {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0 10px;
+    width: 20.7%;
+    height: 100%;
+}
+
+.purchase-value button{
+    font-size: 1.2rem;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.purchase-value input {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    height: 30px;
+    width: 50px;
+}
+
+.purchase-remove {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7.9%;
+    height: 100%;
+}
+
+.purchase-remove button {
+    padding: 10px;
+    /* background-color: var(--pink); */
+    border: none;
+    border-radius: 25%;
+    font-size: 1.4rem;
+    color: var(--pink);
+    cursor: pointer;
+}
+
+.footer-shopping {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.price-final {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--gray);
+}
+
+.price-final h3 {
+    font-weight: lighter;
+    font-size: 1.5rem;
+}
+
+#text-value-final {
+    color: var(--pink);
+}
+
+#finalize-purchase:disabled {
+    background-color: #8f8f8f;
+}
+
+#finalize-purchase {
+    padding: 10px;
+    background-color: var(--pink);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}

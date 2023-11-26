@@ -1,0 +1,21 @@
+{
+  "name": "mr-mix-milk-shakes",
+  "version": "1.0.0",
+  "description": "![2023-08-17-15-25-12](https://github.com/joelrodriguesvieira/mr-mix-milk-shakes/assets/116133750/ea0e9cca-5eb8-4c34-8214-2e54d759b5d7)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
