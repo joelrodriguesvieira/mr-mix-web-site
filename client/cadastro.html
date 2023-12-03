@@ -54,74 +54,49 @@
             </article>
         </div>
     </section>
-    <section class="formulario">
-        <form action="" method="post">
-            <div class="informations-form">
-                <div class="information_user">
-                    <h3>Informações Pessoais</h3>
-                    <div class="input-name">
-                        <label for="name">Nome</label>
-                        <input type="text" name="name" id="name" required >
-                        <label for="lastname">Sobrenome</label>
-                        <input type="text" name="lastname" id="lastname" required >
-                    </div>
-                    <div class="input-contact">
-                        <label for="e-mail">Email</label>
-                        <input type="email" name="e-mail" id="e-mail" placeholder="...@gmail.com">
-                        
-                        <label for="date">Data de nascimento</label>
-                        <input type="date" name="date" id="date">
-                    </div>
-                    <div class="input-date">
-                        <label for="cpf">CPF</label>
-                        <input type="text" name="cpf" id="name" placeholder="xxxxxxxxxxx" required>
-                    </div>
-                    <div class="input-parents">
-                        <label for="mothername">Nome da Mãe</label>
-                        <input type="text" name="mothername" id="mothername" required >
-                        <label for="fathername">Nome da Pai</label>
-                        <input type="text" name="fathername" id="fathername" ><br>
-                    </div>
-                    <div class="input-gender">
-                        <label for="#" style="margin-right: 7px;">Sexo:</label>
-                        <label for="sexo-m">Masculino</label>
-                        <input type="radio" name="genero" id="sexo-m" value="masculino">
-                        <label for="sexo-f">Feminino</label>
-                        <input type="radio" name="genero" id="sexo-f" value="feminino">
-                        <label for="sexo-other">Outro</label>
-                        <input type="radio" name="genero" id="sexo-other" value="outro" checked>
-                    </div>    
-                </div>
-                <div class="adress_user">
-                    <h3>Endereço</h3>
-                    <div class="input-location">
-                        <label for="city">Cidade</label>
-                        <input type="text" name="cidade" id="city"><br>
-                        <label for="neighborhood">Bairro</label>
-                        <input type="text" name="bairro" id="neighborhood">
-                    </div>
-                    <div class="input-cep">
-                        <div class="complement">
-                            <label for="complement">Complemento</label>
-                            <textarea name="complemento_casa" id="complement" cols="45" rows="5"></textarea>
-                        </div>
-                        <label for="cep">CEP</label>
-                        <input type="text" id="cep" name="cep_casa" >
-                    </div>
-                </div>
-                <div class="create-login">
-                    <h3>Criar login</h3>
-                    <div class="create-user">
-                        <label for="usuario">Usuário</label>
-                        <input type="text" name="usuario" id="usuario">
-                        <label for="senha">Senha</label>
-                        <input type="password">
-                    </div>
-                </div>
-                <button class="button-cad" type="submit">Finalizar cadastro</button>
-                <button  class="button-back"><a href="index.html">< Voltar</a></button>
-            </div>
+    <section class="container">
+        <form id="unique-form" action="/form" method="post">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="name" required>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <input type="text" id="sobrenome" name="lastname" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dataNascimento">Data de Nascimento:</label>
+            <input type="date" id="dataNascimento" name="dateofbirth" required>
+
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="123.456.789-00" required>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero" required>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label for="emailLogin">Email de Login:</label>
+            <input type="email" id="emailLogin" name="emailLogin" required>
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="password" required>
+
+            <button id="button-submit" type="submit">Enviar</button>
+
         </form>
     </section>
+    <footer>
+        <ul>
+            <li><a href="#">Sobre nós</a></li>    
+            <li><a href="#">Termos de Uso</a></li>    
+            <li><a href="#">Política de Privacidade</a></li>    
+            <li><a href="#">Fale conosco</a></li>  
+        </ul>
+    </footer>
+    <script src="src/scripts/form.js"></script>
 </body>
 </html>

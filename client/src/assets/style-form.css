@@ -1,3 +1,7 @@
+body {
+    background-color: whitesmoke;
+}
+
 .welcome-form {
     padding: 30px 150px;
     display: flex;
@@ -32,93 +36,64 @@
     font-size: 0.8rem;
 }
 
-.formulario {
-    padding: 0 150px;
-    background-color: whitesmoke;
-    height: 750px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.informations-form {
-    display: flex;
-    flex: wrap;
-    flex-direction: column;
-    align-items: center;
-    height: 750px;
-    width: 80vw;
-    background-color: whitesmoke;
+form {
+    display: grid;
+    gap: 15px;
 }
 
-.informations-form div > h3 {
-    padding: 10px 0;
-    font-size: 1.3rem;
+label {
+    font-weight: bold;
 }
 
-.information_user, .adress_user, .create-login {
-    width: 800px;
-}
-
-.information_user > div, .adress_user > div, .create-login > div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.information_user > div > input, .adress_user > div > input, .create-login > div > input {
-    width: 250px;
-    height: 30px;
-    border: 1px solid var(--gray);
-    border-radius: 5px;
-    margin: 0 7px;
-    font-size: 1rem;
-    padding: 5px;
-}
-
-.informations-form label {
-    font-weight: lighter;
-    font-size: 1rem;
-}
-
-.input-gender > input[type="radio"] {
-    width: 14px;
-}
-
-.complement {
-    display: flex;
-    flex-direction: column;
-    margin-right: 7px;
-}
-
-.button-cad {
-    margin-top: 25px;
-    font-size: 1.2em;
+input,
+select {
+    width: 100%;
     padding: 10px;
-    background-color: var(--pink);
-    color: white;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+#button-submit {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
     border: none;
-    border-radius: 10px;
-    width: 300px;
-    height: 48px;
+    border-radius: 4px;
     cursor: pointer;
-    transition: all 0.2s;
 }
 
-.button-cad:hover {
-    background-color: #ff1054;
+#button-submit:hover {
+    background-color: #0056b3;
 }
 
-.button-back {
-    margin-top: 15px;
-    width: 100px;
-    height: 48px;
-    background-color: var(--blue);
-    border: none;
-    border-radius: 10px;
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: var(--pink);
 }
 
-.button-back a {
-    color: white;
-    font-size: 1.2em;
+footer > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer > ul > li > a {
+    color: #ffffff;
+}
+
+footer > ul > li > a:hover {
+    color: var(--yellow);
 }

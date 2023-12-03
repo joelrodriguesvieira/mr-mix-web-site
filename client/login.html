@@ -43,9 +43,11 @@
             <h3>Faça seu login e aproveite do bom e do melhor!</h3>
             <img src="https://static.vecteezy.com/system/resources/previews/024/095/946/original/cute-milkshake-kawaii-free-png.png" alt="">
         </div>
-        <div class="container-right">
+        <form method="post" class="container-right" id="login-form">
             <div class="box-login">
-                <h1>LOGIN</h1>
+                <div class="top-box">
+                    <h1>LOGIN</h1>
+                </div>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
                     <input type="email" name="usuario" id="usuario">
@@ -57,9 +59,11 @@
                 <div class="forget-login">
                     <a href="#">Esqueci minha senha</a>
                 </div>
-                <button class="button-entrar">Entrar</button>
+                <div class="result-acess"></div>
+                <button type="submit" class="button-entrar">Entrar</button>
             </div>
-        </div>
+        </form>
     </section>
+    <script src="src/scripts/login.js"></script>
 </body>
 </html>

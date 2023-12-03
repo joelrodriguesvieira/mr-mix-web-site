@@ -200,11 +200,15 @@ function checkFinalizeButton() {
 
 async function sendItems() {
     let cart = JSON.parse(localStorage.getItem("cart"));
-    const resul = await fetch ('http://localhost:5000/shopping', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(cart)
-    });
+    try {
+        const resul = await fetch ('http://localhost:5000/shopping', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(cart)
+        });
+    } catch (error) {
+        console.error('Erro ao enviar dados', error);
+    }
 };
