@@ -1,5 +1,4 @@
 # Web-Site Mr.Mix - Milk Shakes
+## Projeto Full-Stack
 
-## O site consiste em uma landing page para um estabelecimento de comidas fast-foods, usando as tecnologias de HTML5 e CSS3, além de usar JavaScript como linguaguem de programação, para a mudança de sabor
-
-![2023-08-17-15-25-12](https://github.com/joelrodriguesvieira/mr-mix-milk-shakes/assets/116133750/ea0e9cca-5eb8-4c34-8214-2e54d759b5d7)
+### O projeto consiste em um sistema com 5 páginas web's não responsivas. As tecnologias usadas foram Javascript, NodeJs, Html5 e Css3, sendo o Html5 a tecnologia usada para fazer as marcações das páginas, definindo cada parte da página de maneira semântica, o Css3 para estilização da página. Além disso, o Javascript foi a linguaguem de programação usada para deixar a página dinâmica e interativa, sendo o NodeJs responsável por fazer a integração do front-end com o back-end. Sendo assim, mesmo sem a utilização de DB, este projeto pode ser considerado FullStack.
