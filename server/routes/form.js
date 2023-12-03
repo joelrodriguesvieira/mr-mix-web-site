@@ -14,6 +14,5 @@ form.post('/form', (request, response) => {
         senha: request.body.password
     };
     users.push(user);
-    console.log(users);
     return response.status(200).json({ message: 'Cliente Cadastrado com Sucesso!' });
 });
